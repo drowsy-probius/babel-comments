@@ -1,3 +1,63 @@
+# babel comments
+
+babel의 첫번째 커밋에서부터 코드를 분석하고 어떻게 구현되어있고 동작하는 원리를 알아봅시다.
+
+## 폴더 구조
+```
+/root
+  /lib
+  	/6to5
+  	  /templates
+  	  /transformers
+  	  /traverse
+  	  /browserify.js
+  	  /middleware.js
+  	  /node.js
+  	  /transform.js
+  	  /util.js
+  /package.json
+```
+
+## 파일 내용
+
+
+### [./package.json](./package.json)
+패키지의 내용을 정의합니다. 엔트리 파일이 `./lib/6to5/node.js`임을 알 수 있습니다.
+
+
+### [./lib/6to5/templates](./lib/6to5/templates)
+
+
+
+### [./lib/6to5/transformers](./lib/6to5/transformers)
+
+
+
+### [./lib/6to5/traverse](./lib/6to5/traverse)
+
+
+
+### [./lib/6to5/browserify.js](./lib/6to5/browserify.js)
+
+
+
+### [./lib/6to5/middleware.js](./lib/6to5/middleware.js)
+
+
+
+### [./lib/6to5/node.js](./lib/6to5/node.js)
+
+
+### [./lib/6to5/transform.js](./lib/6to5/transform.js)
+
+
+### [./lib/6to5/util.js](./lib/6to5/util.js)
+
+
+
+아래는 원 repo의 readme 파일 내용입니다.
+
+---
 # 6to6
 
 **6to5** turns ES6 code into vanilla ES5, so you can use ES6 features **today.**
