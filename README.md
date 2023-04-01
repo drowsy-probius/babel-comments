@@ -6,15 +6,15 @@ babel의 첫번째 커밋에서부터 코드를 분석하고 어떻게 구현되
 ```
 /
   /lib
-  	/6to5
-  	  /templates
-  	  /transformers
-  	  /traverse
-  	  /browserify.js
-  	  /middleware.js
-  	  /node.js
-  	  /transform.js
-  	  /util.js
+    /6to5
+      /templates
+      /transformers
+      /traverse
+      /browserify.js
+      /middleware.js
+      /node.js
+      /transform.js
+      /util.js
   /package.json
 ```
 
