@@ -49,6 +49,7 @@ babel의 첫번째 커밋에서부터 코드를 분석하고 어떻게 구현되
 `babel`의 엔트리 지점입니다. 패키지에서 사용되는 함수를 선언합니다.
 
 ### [./lib/6to5/transform.js](./lib/6to5/transform.js)
+es6 문법으로 정의된 코드를 es5 문법으로 정의된 코드로 변환하는 함수가 선언되어 있습니다. es6 문법의 코드를 AST로 변환하는 함수는 `./lib/6to5/transformers`에 정의되어 있습니다. 다만 AST로부터 ECMAScript 코드 생성은 외부 패키지에 의존하고 있습니다.
 
 
 ### [./lib/6to5/util.js](./lib/6to5/util.js)
