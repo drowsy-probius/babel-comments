@@ -46,7 +46,7 @@ babel의 첫번째 커밋에서부터 코드를 분석하고 어떻게 구현되
 
 
 ### [./lib/6to5/node.js](./lib/6to5/node.js)
-
+`babel`의 엔트리 지점입니다. 패키지에서 사용되는 함수를 선언합니다.
 
 ### [./lib/6to5/transform.js](./lib/6to5/transform.js)
 
