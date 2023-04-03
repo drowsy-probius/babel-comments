@@ -30,7 +30,7 @@ babel의 첫번째 커밋에서부터 코드를 분석하고 어떻게 구현되
 
 
 ### [./lib/6to5/transformers](./lib/6to5/transformers)
-
+AST의 노드 중 es6의 문법으로 작성된 것을 es5의 문법에 맞는 노드로 변환해주는 함수가 선언되어 있습니다.
 
 
 ### [./lib/6to5/traverse](./lib/6to5/traverse)
@@ -42,7 +42,7 @@ babel의 첫번째 커밋에서부터 코드를 분석하고 어떻게 구현되
 
 
 ### [./lib/6to5/middleware.js](./lib/6to5/middleware.js)
-
+아마 범용적으로 사용하기 위해 정의된 미들웨어파일이라고 생각합니다. 
 
 
 ### [./lib/6to5/node.js](./lib/6to5/node.js)
@@ -53,6 +53,7 @@ es6 문법으로 정의된 코드를 es5 문법으로 정의된 코드로 변환
 
 
 ### [./lib/6to5/util.js](./lib/6to5/util.js)
+파서 등의 함수가 구현되어 있습니다. 참고로 파서에서는 외부 모듈(`esprima`)을 사용합니다.
 
 
 

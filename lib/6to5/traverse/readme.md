@@ -14,4 +14,5 @@
 
 
 ### [./visitor-keys.json](./visitor-keys.json)
+노드의 타입에 따라서 검사해야 할 하위 트리 항목을 정의합니다.
 
